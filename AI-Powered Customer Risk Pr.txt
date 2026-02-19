@@ -1,0 +1,55 @@
+Project: AI-Powered Customer Risk Profiling Engine (CRPE)
+
+Overview:
+The Customer Risk Profiling Engine (CRPE) is a microservice-based application designed to analyze customer transaction data and generate dynamic risk scores for internal fraud monitoring systems.
+
+The system ingests transactional and profile data from multiple upstream banking systems and applies rule-based and ML-assisted scoring logic to classify customers into Low, Medium, or High-risk categories.
+
+The generated risk profile is consumed by:
+- Fraud Monitoring Dashboard
+- Transaction Authorization Engine
+- Compliance Monitoring Service
+
+CRPE is expected to support near real-time scoring with latency below 300ms per request and should be horizontally scalable to support peak loads during trading hours.
+
+Architecture Components:
+
+1. Data Ingestion Layer
+Consumes customer data from Kafka topics.
+Validates schema and filters incomplete payloads.
+
+2. Risk Scoring Service
+Applies business rules such as:
+- High-value international transactions
+- Sudden transaction pattern deviation
+- Blacklisted geolocation
+
+Integrates ML-based anomaly detection model.
+
+3. Profile Aggregator
+Aggregates transaction signals across rolling 30-day windows.
+
+4. Risk Classification Engine
+Converts risk score into risk band:
+Low (0–40)
+Medium (41–70)
+High (71–100)
+
+5. API Gateway
+Exposes REST endpoint:
+/risk/score
+
+Functional Requirements:
+
+- System should update risk score within 5 minutes of transaction ingestion.
+- Risk score calculation should be idempotent.
+- API must support 1000 concurrent requests.
+- Risk profile should be persisted in PostgreSQL.
+- Risk score recalculation must be triggered if profile attributes change.
+
+Known Constraints:
+
+- Kafka ingestion may be delayed during peak load.
+- ML model inference latency varies between 50–120ms.
+- Risk recalculation logic is dependent on upstream profile sync service.
+- Documentation for anomaly scoring thresholds is incomplete.

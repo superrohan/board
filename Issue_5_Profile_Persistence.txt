@@ -1,0 +1,12 @@
+Title: Risk Profile Persistence Failure
+
+Description:
+Customer risk profile not getting stored intermittently.
+
+Assignee: Arjun
+Status: In Progress
+
+Comments:
+Arjun: DB connection timeout.
+DevOps: Could be pool size issue.
+Arjun: Increasing pool size temporarily.

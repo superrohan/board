@@ -1,0 +1,13 @@
+Title: ML Model Latency Impacting API Response Time
+
+Description:
+Observed latency spikes beyond 300ms during peak hours.
+
+Assignee: Sameer
+Status: In Progress
+
+Comments:
+Sameer: Latency from inference engine.
+DevOps: Might be container scaling issue.
+Sameer: Scaling is already enabled.
+DevOps: Let's review resource limits.

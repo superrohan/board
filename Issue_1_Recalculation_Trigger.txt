@@ -1,0 +1,14 @@
+Title: Implement Risk Score Recalculation Trigger
+
+Description:
+Risk score must be recalculated when customer profile attributes such as KYC status or geo-location change.
+
+Assignee: Rahul
+Status: In Progress
+
+Comments:
+Rahul: Should this trigger be event-driven from profile service or scheduled?
+Priya: I think we need confirmation from Compliance team.
+Rahul: Wiki doesn't mention recalculation frequency clearly.
+Priya reassigned issue to Amit
+Amit: Picking this up once requirement is finalized.

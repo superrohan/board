@@ -1,0 +1,12 @@
+Title: API Rate Limit Breach Under Load Test
+
+Description:
+API /risk/score failing when concurrent requests exceed 800.
+
+Assignee: Mehul
+Status: Open
+
+Comments:
+Mehul: Load test report attached.
+QA: Requirement says support 1000 requests.
+Mehul: Need infra upgrade?

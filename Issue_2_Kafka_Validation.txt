@@ -1,0 +1,13 @@
+Title: Kafka Payload Validation Failure Handling
+
+Description:
+Need to define fallback logic for incomplete transaction payloads received from ingestion topic.
+
+Assignee: Neha
+Status: Reopened
+
+Comments:
+Neha: Added null-check validation.
+QA: Failing when geo-location is missing.
+Neha: Should we discard or mark for retry?
+QA: Requirement unclear. Reopening.

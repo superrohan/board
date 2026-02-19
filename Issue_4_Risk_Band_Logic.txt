@@ -1,0 +1,12 @@
+Title: Risk Band Classification Logic Mismatch
+
+Description:
+Some Medium-risk customers are being marked as High-risk.
+
+Assignee: Pooja
+Status: In Progress
+
+Comments:
+Pooja: Threshold in config is 65 instead of 70.
+QA: This value is not documented in Wiki.
+Pooja: Updating config now.
