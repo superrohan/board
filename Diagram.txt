@@ -1,0 +1,69 @@
++--------------------------------------------------------------+
+|                    Engineering Platforms                     |
+|--------------------------------------------------------------|
+|  GitLab     |     Confluence (Future)     |   SharePoint     |
++---------------------------|----------------------------------+
+                            |
+                            ▼
++--------------------------------------------------------------+
+|               Integration & Sync Layer                       |
+|--------------------------------------------------------------|
+|  GitLab API Connector                                        |
+|  Wiki Sync Service                                           |
+|  Issue Import / Update Service                               |
+|  Knowledge Extraction Module                                 |
++---------------------------|----------------------------------+
+                            |
+                            ▼
++--------------------------------------------------------------+
+|                IntelliLayer Backend (Spring Boot)            |
+|--------------------------------------------------------------|
+|  Issue Lifecycle Tracker                                     |
+|  Personal Productivity Tracker                               |
+|  Focus Mode Manager                                          |
+|  Neuro-Adaptive Mode Engine                                  |
+|  AI Ticket Creation / Update Service                         |
+|  Issue Prioritization Engine                                 |
++---------------------------|----------------------------------+
+                            |
+                            ▼
++--------------------------------------------------------------+
+|                    AI Processing Layer                       |
+|--------------------------------------------------------------|
+|  LLM Issue Assistant                                         |
+|  Issue Summarization Engine                                  |
+|  Task Chunking Engine                                        |
+|  Chat-based Task Query                                       |
+|  AI Prioritization Model                                     |
++---------------------------|----------------------------------+
+                            |
+                            ▼
++--------------------------------------------------------------+
+|                   Knowledge Layer (RAG)                      |
+|--------------------------------------------------------------|
+|  GitLab Wiki Ingestion                                       |
+|  Embedding Generator                                         |
+|  Vector Database                                             |
+|  Context Retrieval Engine                                    |
++---------------------------|----------------------------------+
+                            |
+                            ▼
++--------------------------------------------------------------+
+|                     Database Layer                           |
+|--------------------------------------------------------------|
+|  Issue Metadata                                              |
+|  User Productivity Logs                                      |
+|  Daily Objectives                                            |
+|  AI Recommendations History                                  |
++---------------------------|----------------------------------+
+                            |
+                            ▼
++--------------------------------------------------------------+
+|                  Frontend (React Plugin)                     |
+|--------------------------------------------------------------|
+|  Personal Tracker Dashboard                                  |
+|  Focus Mode UI                                               |
+|  AI Issue Chat Interface                                     |
+|  Dyslexic Accessibility Mode                                 |
+|  Issue Prioritization Panel                                  |
++--------------------------------------------------------------+
