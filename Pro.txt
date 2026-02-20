@@ -1,0 +1,91 @@
+Act as a Product Manager at UBS preparing a hackathon pitch for senior leadership.
+
+Create a professional PowerPoint presentation (maximum 4–5 slides) for the following solution under the theme:
+
+"Improving software delivery productivity by identifying and resolving lifecycle bottlenecks using Automation, AI, or GHCP with measurable outcomes and reusable solutions."
+
+PROJECT OVERVIEW:
+
+We have built an AI-powered productivity layer plugin that can be seamlessly integrated with engineering workflow platforms such as GitLab (currently implemented), and can be extended to Confluence and SharePoint.
+
+The solution provides a personal productivity layer to engineers to track and manage:
+- GitLab Issues they are working on
+- Personal daily objectives and achievements
+- Project knowledge base (via Wiki Sync)
+
+The system integrates with GitLab APIs to:
+- Import issues
+- Track issue progress
+- Update GitLab issues directly
+- Create or modify GitLab issues using AI-generated descriptions
+- Sync updates without requiring duplicate effort across tools
+
+The solution includes an AI-powered Issue Assistant where users can:
+- Summarize GitLab issues
+- Ask contextual queries about the issue
+- Generate improved descriptions
+- Break down complex issues into actionable steps
+- Update GitLab tickets using LLM-powered assistance
+
+This helps reduce requirement ambiguity and documentation dependency during execution.
+
+BOTTLENECK IDENTIFICATION:
+
+The system identifies delivery lifecycle bottlenecks at an individual contributor level such as:
+- Issue idle time (task stuck in progress)
+- Frequent reassignment (ownership confusion)
+- Reopened issues (requirement ambiguity)
+- Multitasking overload (too many parallel issues)
+- Context switching delays
+- Documentation search overhead
+
+BOTTLENECK RESOLUTION FEATURES:
+
+Focus Mode:
+Allows user to select a single issue and lock the working interface for a defined duration.
+This reduces multitasking and context switching and encourages focused execution of one issue at a time.
+
+Personal Tracker:
+Allows users to track daily objectives and achievements.
+Helps streamline daily status updates and reduces reporting overhead.
+
+Knowledge Sync (RAG-based):
+Project Wikis are pulled from GitLab and stored in a centralized knowledge base using RAG.
+Helps new members onboard faster and reduces knowledge discovery time.
+
+Neuro-Adaptive Accessibility Mode:
+Includes dyslexic-friendly interface by enabling Open Dyslexic font and increased word spacing.
+Adaptive execution model inspired by neurodivergent productivity patterns such as task chunking to reduce cognitive overload.
+
+QUANTIFIABLE IMPROVEMENT METRICS (Based on Prototype Simulation):
+
+- Up to 30–40% reduction in issue idle time
+- Reduced issue reassignment rate
+- Reduced issue reopen rate
+- Reduced multitasking overhead
+- Faster issue understanding via AI summarization
+- Reduced duplication of updates across tools
+
+REUSABLE & SCALABLE DESIGN:
+
+- Plugin-based architecture
+- GitLab API abstraction layer
+- Extendable to Confluence / SharePoint
+- Modular AI services
+- RAG-based knowledge sync
+- Suitable for deployment across multiple engineering teams
+
+STRUCTURE THE SLIDES AS FOLLOWS:
+
+Slide 1 – Problem Statement & Lifecycle Bottlenecks
+Slide 2 – Proposed Solution (AI Productivity Plugin Layer)
+Slide 3 – Key Features & AI Capabilities
+Slide 4 – Measurable Impact & Bottleneck Reduction
+Slide 5 – Reusable & Scalable Architecture
+
+Ensure:
+- Bullet points only
+- Concise executive-level language
+- Emphasis on delivery productivity
+- Avoid long paragraphs
+- Focus on project delivery improvement, not just personal productivity
